@@ -1,0 +1,117 @@
+.parentbox {
+    height: 500px;
+    position: relative;
+}
+
+.top-whitebox {
+    background-color: white;
+    height: 50%;
+}
+
+.bottom-darkbox {
+    background-color: #212529;
+    height: 50%;
+}
+
+.green-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.greenbox {
+    position: relative;
+    background-color: #92db79;
+    top: -80%;
+    width: 80%;
+    margin: auto;
+    /* padding: 20px; */
+    border-radius: 10px;
+    color: white;
+}
+
+.greenbox-content {
+    background-image: url('../../../assets/images/leftVectore.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-position: top center;
+    /* position: absolute; */
+}
+
+.contentbox {
+    padding: 25px 50px;
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    z-index: 2;
+    transform: translateY(-50%);
+    /* color: black; */
+}
+
+  .gespra-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: linear-gradient(to top right, #a0a0a0, #4d4d4d); 
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.gespra-btn:hover {
+    opacity: 0.9; 
+}
+
+
+.left-vectore {
+    position: absolute;
+    top: 0%;
+    left: 0%;   
+    border-radius: 10px;
+}
+
+.right-vectore {
+    border-radius: 10px;
+}
+
+.women {
+    position: absolute;
+    top: -37%;
+    right: 8%;
+    z-index: 1;
+}
+
+.Ellipse {
+    position: absolute;
+    bottom: .5%;
+    right: 7%;
+    width: 35%;
+}
+
+.break-text {
+    width: 70%; 
+    max-width: 100%; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal; 
+  }
+  
+
+@media (max-width: 768px) {
+    .greenbox {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .contentbox p{
+        font-weight: 500;
+    }
+}

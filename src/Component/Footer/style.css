@@ -1,0 +1,109 @@
+.footer-content {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.social-icons span {
+    /* width: 40px;
+    height: 40px; */
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-icons span:hover {
+    background-color: #92db79;
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Styling for links */
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 5px 0;
+}
+
+.footer-links a:hover {
+    color: #92db79;
+    /* Green hover effect */
+}
+
+/* Divider style */
+.footer-links .divider {
+    color: white;
+    font-weight: bold;
+}
+
+.text-border {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.text-border::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: .5PX;
+    background-color: #92DB79;
+    transition: width 0.3s ease-in-out;
+}
+
+.text-border:hover::after {
+    width: 100%;
+}
+
+
+
+@media (max-width: 576px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    .footer-links .divider {
+        display: none;
+    }
+}
