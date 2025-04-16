@@ -1,7 +1,7 @@
 import Laravel from "../../assets/images/icons/laravel.png"
 import Icon2 from "../../assets/images/icons/icons-16.png"
 import Icon3 from "../../assets/images/icons/icons-17.png"
-import Banner1 from "../../assets/images/slider/banner-01.png"
+import Banner1 from "../../assets/images/slider/banner-02.png"
 const Slider = () => {
     return (
         <>

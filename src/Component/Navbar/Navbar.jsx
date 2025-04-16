@@ -5,7 +5,7 @@
 // import "../../assets/css/aos.css";
 // import "../../assets/css/feature.css";
 
-import Logo from "../../assets/images/logo/logo.png"
+import Logo from "../../assets/images/logo/logo1.png"
 import LogosCircle from "../../assets/images/logo/logos-circle.png"
 
 const Navbar = () => {

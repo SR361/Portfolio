@@ -170,10 +170,9 @@ const Resume = () => {
                                 <div className="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                                     <div className="personal-experience-inner mt--40">
                                         <div className="row">
-                                            {/*  */}
                                             <div className="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
                                                 <div className="content">
-                                                    <span className="subtitle">2007 - 2010</span>
+                                                    <span className="subtitle">2019 - 2020</span>
                                                     <h4 className="maintitle">Evion Technologies</h4>
                                                     <div className="experience-list">
                                                         <div className="resume-single-list">
@@ -181,7 +180,7 @@ const Resume = () => {
                                                                 <div className="heading">
                                                                     <div className="title">
                                                                         <h4>Laravel Developer</h4>
-                                                                        <span>Junior Developer (2004 - 2008)</span>
+                                                                        <span>Junior Developer (2019 - 2020)</span>
                                                                     </div>
                                                                 </div>
                                                                 <p className="description">As a Laravel Developer at Evion Technica, engaged in backend development and the design of robust web applications. Focused on creating efficient and salable solutions using Laravel, PHP, HTML, CSS, jQuery, JavaScript, Ajax and MySQL.</p>
@@ -192,7 +191,7 @@ const Resume = () => {
                                                                 <div className="heading">
                                                                     <div className="title">
                                                                         <h4>Full Stack Developer</h4>
-                                                                        <span>Senior Developer (2008 - 2016)</span>
+                                                                        <span>Senior Developer (2024 - 2025)</span>
                                                                     </div>
                                                                 </div>
                                                                 <p className="description">As a Laravel Developer at Smart Technica, engaged in backend development and the design of robust web applications. Focused on creating efficient and salable solutions using Laravel, PHP, and MySQL. Collaborated closely with frontend developers to ensure seamless integration of server-side logic with user-facing elements.</p>
@@ -206,7 +205,7 @@ const Resume = () => {
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-12">
                                                 <div className="content">
-                                                    <span className="subtitle">2007 - 2010</span>
+                                                    <span className="subtitle">2022 - 2024</span>
                                                     <h4 className="maintitle">Smart Technica</h4>
                                                     <div className="experience-list">
                                                         <div className="resume-single-list">
@@ -214,7 +213,7 @@ const Resume = () => {
                                                                 <div className="heading">
                                                                     <div className="title">
                                                                         <h4>Laravel Developer</h4>
-                                                                        <span>Junior Developer (1997 - 2001)</span>
+                                                                        <span>Junior Developer (2022 - 2024)</span>
                                                                     </div>
                                                                 </div>
                                                                 <p className="description">As a Laravel Developer at Smart Technica, engaged in backend development and the design of robust web applications. Focused on creating efficient and salable solutions using Laravel, PHP, and MySQL. Collaborated closely with frontend developers to ensure seamless integration of server-side logic with user-facing elements.</p>
